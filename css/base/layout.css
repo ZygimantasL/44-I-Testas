@@ -41,14 +41,14 @@ h2{
    font-weight:200;
 }
 button{
-   background-color: #414141;
-   color: #f4f4f4;
+   background-color: var(--colordark);
+   color:var(--colorlight);
    padding: 1rem 2rem;
    border-radius: 0.5rem;
 }
 button:hover{
-   background-color: #fff;
-   color: #000;
+   background-color: var(--colorlight);
+   color: var(--colordark);
 }
 .kvmr{
    background-color: var(--colorsecond);
@@ -106,4 +106,10 @@ button:hover{
    flex-direction: row;
    justify-content: center;
    gap: 2rem;
+}
+.button2{
+   background-color:var(--colordark);
+}
+.button2:hover{
+   background-color: var(--colorlight);
 }
