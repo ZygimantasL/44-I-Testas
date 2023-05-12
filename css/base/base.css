@@ -1,7 +1,6 @@
 :root{
-    --colormain: #f5f5f5;
-    /* --colorsecond: #ea1e63;
-    --dark-colorsecond: #dd1558;  */
+    --colormain: #fff;
+    --colorsecond: #f5f5f5;
 }
 body,
 body * {
@@ -13,6 +12,6 @@ body * {
 .bg-main{
     background-color: var(--colormain);
 }
-/* .bg-second{
+.bg-second{
     background-color: var(--colorsecond);
-} */
+} 
