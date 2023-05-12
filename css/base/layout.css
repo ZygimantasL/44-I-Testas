@@ -2,7 +2,7 @@
    margin-top: 2rem;
     width: 100%;
     display: flex;
-    justify-content: space-around
+    justify-content: space-around;
 
  }
  .top-text{
@@ -35,14 +35,14 @@
    margin-top: 5rem;
    font-size: 4rem;
 }
-.hero-second{
+h2{
    width: 75%;
    font-size: 2rem;
    font-weight:200;
 }
 button{
-   background-color: #000;
-   color: #fff;
+   background-color: #414141;
+   color: #f4f4f4;
    padding: 1rem 2rem;
    border-radius: 0.5rem;
 }
@@ -55,12 +55,14 @@ button:hover{
    width: 100%;
    padding: 9rem;
 }
-.kvmr-h1{
-background-color: var(--colorsecond);
-font-size: 3rem;
-text-align: center;
+.others-h1{
+   margin: 6rem;
+   font-size: 3rem;
+   text-align: center;
 }
 .kvmr-pic{
+   width: 80%;
+   margin-left: 10%;
    margin-top: 9rem;
    display: flex;
    flex-direction: row;
@@ -79,5 +81,29 @@ text-align: center;
    font-size: 1.5rem;
 }
 .duk{
-   background-color: var(--colormain);
+   width: 80%;
+   margin: 0 10%;
+}
+.h2 {
+   font-weight: bold;
+}
+.duk_row{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+}
+.duk_column{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   text-align: center;
+   width: 26rem;
+   margin: 3rem;
+}
+.duk_buttons{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   gap: 2rem;
 }
